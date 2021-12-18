@@ -147,3 +147,17 @@ footer {
   height: 200px;
   background-color: #274058;
 }
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .sell-box {
+    margin: 0 auto;
+  }
+
+  .sell-box img {
+    margin: 0 auto;
+  }
+}

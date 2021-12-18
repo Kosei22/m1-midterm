@@ -93,7 +93,6 @@ header {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -214,4 +213,60 @@ header {
 footer {
   height: 200px;
   background-color: #274058;
+}
+
+@media (max-width: 500px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .slide-box {
+    margin: 0 auto;
+  }
+
+  .box {
+    width: 100%;
+    height: none;
+    text-align: center;
+    margin-top: none;
+    margin-left: 0;
+  }
+
+  .contents-box {
+    height: 2295px;
+  }
+
+  .toy-box {
+    float: none;
+    margin-right: none;
+    margin-top: none;
+    background-color: chartreuse;
+  }
+
+  .shoes-box {
+    float: none;
+    margin-left: none;
+    margin-top: 500px;
+    background-color: lightgrey;
+  }
+
+  .movie-box {
+    float: none;
+    margin-right: none;
+    margin-top: -22px;
+    background-color: lightcoral;
+  }
+
+  .app-box {
+    float: none;
+    margin-left: none;
+    margin-top: -22px;
+    background-color: khaki;
+  }
 }
